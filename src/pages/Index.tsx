@@ -228,7 +228,7 @@ const Index = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="fastingBS">Fasting Blood Sugar > 120</Label>
+                    <Label htmlFor="fastingBS">Fasting Blood Sugar {'>'}120</Label>
                     <Select value={formData.fastingBS} onValueChange={(value) => handleInputChange('fastingBS', value)}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select" />
