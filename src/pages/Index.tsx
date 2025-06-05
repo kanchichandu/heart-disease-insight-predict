@@ -194,11 +194,11 @@ const Index = () => {
                         <SelectValue placeholder="Select type" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="0">Typical Angina</SelectItem>
-                        <SelectItem value="1">Atypical Angina</SelectItem>
-                        <SelectItem value="2">Non-Anginal Pain</SelectItem>
-                        <SelectItem value="3">Asymptomatic</SelectItem>
-                        <SelectItem value="4">NO</SelectItem>
+                        <SelectItem value="0">Typical Angina (classic chest pain)</SelectItem>
+                        <SelectItem value="1">Atypical Angina (unusual chest pain)</SelectItem>
+                        <SelectItem value="2">Non-Anginal Pain (not heart-related)</SelectItem>
+                        <SelectItem value="3">Asymptomatic (no symptoms)</SelectItem>
+                        <SelectItem value="4">No Chest Pain</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
