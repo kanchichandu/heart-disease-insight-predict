@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -199,6 +198,7 @@ const Index = () => {
                         <SelectItem value="1">Atypical Angina</SelectItem>
                         <SelectItem value="2">Non-Anginal Pain</SelectItem>
                         <SelectItem value="3">Asymptomatic</SelectItem>
+                        <SelectItem value="4">NO</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
